@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { TrendingUp, Target, DollarSign, BarChart3 } from "lucide-react"
+import { TrendingUp, Target, DollarSign, ChartBar as BarChart3 } from "lucide-react"
 import { GlassCard } from "@/components/ui/glass-card"
 import { SummaryStats } from "@/lib/api"
 import { formatCurrency, cn } from "@/lib/utils"

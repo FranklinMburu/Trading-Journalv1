@@ -3,7 +3,7 @@
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
 import { motion } from "framer-motion"
-import { TrendingUp, DollarSign, Target, BarChart3, Plus } from "lucide-react"
+import { TrendingUp, DollarSign, Target, ChartBar as BarChart3, Plus } from "lucide-react"
 import { useAuth } from "@/hooks/useAuth"
 import { useStats } from "@/hooks/useStats"
 import { useTrades } from "@/hooks/useTrades"

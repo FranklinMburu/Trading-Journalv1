@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { motion } from "framer-motion"
-import { MoreHorizontal, Edit, Trash2, TrendingUp, TrendingDown, DollarSign } from "lucide-react"
+import { MoveHorizontal as MoreHorizontal, CreditCard as Edit, Trash2, TrendingUp, TrendingDown, DollarSign } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,

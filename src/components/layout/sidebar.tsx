@@ -4,15 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { motion } from "framer-motion"
-import { 
-  LayoutDashboard, 
-  TrendingUp, 
-  BarChart3, 
-  User, 
-  Menu,
-  X,
-  Zap
-} from "lucide-react"
+import { LayoutDashboard, TrendingUp, ChartBar as BarChart3, User, Menu, X, Zap } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { GlassCard } from "@/components/ui/glass-card"
 

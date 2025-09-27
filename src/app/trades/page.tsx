@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
 import { motion } from "framer-motion"
-import { Plus, Filter, Search } from "lucide-react"
+import { Plus, ListFilter as Filter, Search } from "lucide-react"
 import { useAuth } from "@/hooks/useAuth"
 import { useTrades } from "@/hooks/useTrades"
 import { DashboardLayout } from "@/components/layout/dashboard-layout"
